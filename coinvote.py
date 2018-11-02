@@ -10,7 +10,7 @@ from sc import Vote
 # message_tx ID's to track in the chain
 
 ID = ['ID_0001', 'ID_0002']
-#ID = ['Vote_PARAMITER_1', 'VOTE_PARAMITER_2', 'VOTE_PARAMITER_3']
+#ID = ['Vote_PARAMETER_1', 'VOTE_PARAMETER_2', 'VOTE_PARAMETER_3']
 
 votes = []
 
