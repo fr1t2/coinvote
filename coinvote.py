@@ -6,10 +6,11 @@ import q
 import time
 import pickle as pickle
 from sc import Vote
-
+ 
 # message_tx ID's to track in the chain
 
 ID = ['ID_0001', 'ID_0002']
+#ID = ['Vote_PARAMITER_1', 'VOTE_PARAMITER_2', 'VOTE_PARAMITER_3']
 
 votes = []
 
@@ -18,8 +19,6 @@ for i in ID:
 
 
 # set starting blockheight to track the chain from with variable blocks
-
-#blocks = 180450
 blocks = 175000
 
 # set safety lag in case of minor forks to chain tip

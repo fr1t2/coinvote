@@ -17,6 +17,7 @@ def hstr2bin_bytes(hstr):
 # grpc functions accessible within a class
 
 class QRL():
+    #def __init__(self, node='127.0.0.1:19009', verbose=False):
     def __init__(self, node='35.178.79.137:19009', verbose=False):                  #may be overriden with local node
         self.grpc_connect(node)
 
